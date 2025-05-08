@@ -1,0 +1,13 @@
+name: AIML25Exam
+dependencies:
+- numpy
+- scipy
+- matplotlib
+- pandas
+- mglearn
+- pytorch
+- jupyter
+- scikit-learn
+- transformers
+- datasets
+- pip

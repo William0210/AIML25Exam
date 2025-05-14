@@ -1,0 +1,17 @@
+name: AIML25Exam
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - nltk
+  - scikit-learn
+  - transformers
+  - pytorch
+  - pip
+  - pip:
+    - wordcloud

@@ -9,5 +9,5 @@
 # Step 2: Data.py
 # Use the data.py file to access the UC Irvine SMS Spam Collection dataset
 
-# Step 3: Run BERT, BoW, LogisticRegression or NaiveBayes
-# Run any of the 4 ML models to extract a classification report and confusion matrix
+# Step 3: Run BERT, LogisticRegression or NaiveBayes
+# Run any of the 3 ML models to extract a classification report and confusion matrix

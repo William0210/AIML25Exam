@@ -36,7 +36,7 @@ for dirname, _, filenames in os.walk('C:/Users/William Olesen/Desktop/AIML25/dat
         print(os.path.join(dirname, filename))
 
 # Load the CSV file and rename relevant columns for clarity
-df = pd.read_csv('C:/Users/William Olesen/Desktop/AIML25/data/sms_spam.csv', encoding='latin1')
+df = pd.read_csv('C:/Users/William Olesen/Desktop/AIML25/AIML25Exam/data/sms_spam.csv', encoding='latin1')
 df = df.rename(columns={'Text': 'text', 'Label': 'label'})
 
 # Show first few rows of the dataset

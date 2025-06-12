@@ -31,12 +31,12 @@ warnings.filterwarnings('ignore')
 
 # Print all files found in the given directory to ensure data is available
 import os
-for dirname, _, filenames in os.walk('C:/Users/William Olesen/Desktop/AIML25/data'):
+for dirname, _, filenames in os.walk('C:/Users/William. O/Desktop/AIML25/data'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 
 # Load the CSV file and rename relevant columns for clarity
-df = pd.read_csv('C:/Users/William Olesen/Desktop/AIML25/AIML25Exam/data/sms_spam.csv', encoding='latin1')
+df = pd.read_csv('C:/Users/William. O/Desktop/AIML25/data/sms_spam.csv', encoding='latin1')
 df = df.rename(columns={'Text': 'text', 'Label': 'label'})
 
 # Show first few rows of the dataset
@@ -45,7 +45,8 @@ print(df.head())
 # -----------------------------------------------
 # TEXT PREPROCESSING FUNCTION
 # -----------------------------------------------
-
+nltk.download('punkt_tab')
+nltk.download('stopwords')
 # Define a function to clean and preprocess the raw SMS messages
 def preprocess_text(text):
     # Tokenize the message into individual words

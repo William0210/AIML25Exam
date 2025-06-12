@@ -37,7 +37,7 @@ nltk.download('stopwords')
 # ----------------------------------------------------
 
 # Load the CSV file and rename columns for clarity
-df = pd.read_csv('C:/Users/William Olesen/Desktop/AIML25/data/sms_spam.csv', encoding='latin1')
+df = pd.read_csv('C:/Users/William. O/Desktop/AIML25/data/sms_spam.csv', encoding='latin1')
 df = df.rename(columns={'Text': 'text', 'Label': 'label'})
 
 # Define a function to clean the SMS text

@@ -33,7 +33,7 @@ warnings.filterwarnings('ignore')
 
 # Walk through directory and print all files found in the data folder
 import os
-for dirname, _, filenames in os.walk('C:/Users/William Olesen/Desktop/AIML25/data'):
+for dirname, _, filenames in os.walk('C:/Users/William. O/Desktop/AIML25/data'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 
@@ -43,7 +43,7 @@ for dirname, _, filenames in os.walk('C:/Users/William Olesen/Desktop/AIML25/dat
 
 # Load the CSV file into a DataFrame
 # Rename columns for consistency: 'Text' → 'text', 'Label' → 'label'
-df = pd.read_csv('C:/Users/William Olesen/Desktop/AIML25/data/sms_spam.csv', encoding='latin1')
+df = pd.read_csv('C:/Users/William. O/Desktop/AIML25/data/sms_spam.csv', encoding='latin1')
 df = df.rename(columns={'Text': 'text', 'Label': 'label'})
 
 # Display the first few rows to inspect the structure
